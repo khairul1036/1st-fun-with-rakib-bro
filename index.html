@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Website</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e1b9d5; /* Optional background color for the page */
+        }
+
+        .container {
+            width: 100%;
+            background-color: rgb(255, 190, 234);
+            text-align: center;
+            padding: 20px; /* Optional padding for the container */
+        }
+        form {
+            margin-top: 20px;
+        }
+        input{
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        button{
+            padding: 5px 30px;
+            border-radius: 5px;
+            background-color: #a30090;
+            color: #f0f0f0;
+            font-weight: bold;
+        }
+        h1{
+            color: rgb(61, 61, 61);
+        }
+        button:hover{
+            padding: 5px 30px;
+            border-radius: 5px;
+            background-color: #6a005d;
+            color: #f0f0f0;
+            font-weight: bold;
+        }
+        span{
+            text-align: left;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="">
+            <input type="email" id="email" placeholder="xyz@gmail.com"><br><br>
+            <input type="password" id="password" placeholder="********"><br><br>
+            <input type="checkbox"><span>forget pass</span><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
