@@ -11,14 +11,21 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #e1b9d5; /* Optional background color for the page */
+            background-color: #e1b9d5;
         }
 
         .container {
             width: 100%;
+            background-image: linear-gradient(90deg,#a33737,transparent) ,url("bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             background-color: rgb(255, 190, 234);
             text-align: center;
-            padding: 20px; /* Optional padding for the container */
+            padding: 20px; 
+            border-radius: 5px;
+            border: #6a005d solid;
+            box-shadow: 0px 0px 10px;
         }
         form {
             margin-top: 20px;
@@ -34,9 +41,10 @@
             background-color: #a30090;
             color: #f0f0f0;
             font-weight: bold;
+            cursor: pointer;
         }
         h1{
-            color: rgb(61, 61, 61);
+            color: rgb(255, 255, 255);
         }
         button:hover{
             padding: 5px 30px;
@@ -58,8 +66,7 @@
         <form action="">
             <input type="email" id="email" placeholder="xyz@gmail.com"><br><br>
             <input type="password" id="password" placeholder="********"><br><br>
-            <input type="checkbox"><span>forget pass</span><br>
-            <button type="submit">Login</button>
+            <a href="/magic.html"><button type="submit">Login</button></a>
         </form>
     </div>
 </body>
